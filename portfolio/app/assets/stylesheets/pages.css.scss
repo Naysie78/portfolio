@@ -1,0 +1,99 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body, html {height:100%; background: url('http://i1315.photobucket.com/albums/t590/naysie0/Bahston2_zpsx7nx3emx.jpg');
+  background-size:cover;}
+.header {
+	font-family:'Roboto', sans-serif;
+	color:#333;
+  font-size:24px;
+  ul {
+  	list-style: none;
+    padding: 20px;
+  }
+  li {
+  	border-bottom: 1px solid #EE5C67;
+    padding: 10px;
+    padding-bottom: 3px;
+    display:inline;
+     a {
+  	text-decoration:none;
+    color:#555;
+    font-weight:300;
+  }
+    	&:hover {
+      	background:rgba(0,0,0, .02);
+        border-bottom: 1px solid #3BC3FF;
+        a{
+        color:#59425F;
+        }
+      }
+  }
+  .social:hover {
+  	background:none;
+  }
+}
+
+.main {
+	font-family:'Roboto', sans-serif;
+  color:#000;
+  text-align:right;
+  height:100%;
+  margin-right: 15px;
+  h2 {
+    font-size:60px;
+    padding:20px;
+  }
+  a {
+  	background: rgba(0,0,0, .8);
+    color:#fff;
+    padding:10px;
+    font-size: 24px;
+    position:relative;
+    width:100%;
+    	&:hover {
+      	text-decoration:none;
+        background:rgba(0,0,0,.9);
+        color:#3BC3FF;
+      }
+  }
+  span {
+  	color:#0a7e7b;
+    font-weight:700;
+  }
+}
+
+.footer {
+	ul {
+		list-style:none;
+  }
+  li {
+  	float:right;
+    background:none;
+    a {
+    	background:none;
+      opacity:90%;
+    }
+    a:hover {
+    	background:none;
+    }
+    img {
+    	background:#fff;
+    }
+  }
+}
+
+.disclaimer {
+	color:#ccc;
+  font-size:15px;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  text-align:center;
+  background:rgba(0,0,0, .6);
+  padding:5px;
+  a {
+  	color:#3BC3FF;
+  }
+}
+
